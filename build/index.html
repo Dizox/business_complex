@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Webpage</title>
+		<!--link(rel="icon",type="image/ico",href="img/favicon.ico")-->
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Awesome webpage">
+		<link rel="stylesheet" href="styles.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" defer></script>
+		<script src="script.js" defer></script>
+	</head>
+	<body>
+		<main>
+			<div class="hidden__container">
+				<div class="hidden">   </div>
+			</div>
+			<noscript>
+				<p>Please enable Javascript</p>
+			</noscript>
+			<div class="header__hidden">
+				<div class="header__wrapper wrapper">
+					<nav class="header__nav"><a href="#" class="header__logo">ЛОГО</a>
+						<div class="header__column"><a href="#plan" class="header__link">Планировки</a><a href="#infrastructure" class="header__link">Инфраструктура</a><a href="#map" class="header__link">Карта</a></div>
+					</nav>
+				</div>
+			</div>
+			<header class="header">
+				<div class="header__wrapper wrapper">
+					<nav class="header__nav"><a href="#" class="header__logo">ЛОГО</a>
+						<div class="header__column"><a href="#plan" class="header__link">Планировки</a><a href="#infrastructure" class="header__link">Инфраструктура</a><a href="#map" class="header__link">Карта</a></div>
+					</nav>
+					<div class="header__title">Новый комплекс бизнес-класса в Волгограде</div>
+					<button class="header__button">Выбрать квартиру</button>
+				</div>
+			</header>
+			<div class="plan">
+				<div class="wrapper">
+					<div id="plan" class="plan__title">Планировка</div>
+					<div class="plan__container">
+						<div class="plan__text">Комплексная жилая застройка переменной этажности 7-17 этажей, со встроенными коммерческими помещениями, детским садом, школой и многоуровневой парковкой. На территории жилого квартала предусмотрена детская поликлиника. Периметральная застройка и закрытые обустроенные дворы обеспечивают безопасность для детей и жителей квартала.</div>
+						<button class="plan__button">Выбрать квартиру</button>
+					</div>
+				</div>
+			</div>
+			<div class="examples">
+				<div class="examples__title">Примеры планировочных решений</div>
+				<div class="examples__wrapper wrapper">
+					<div class="examples__column examples__column_right125px">
+						<div class="examples__container">
+							<div class="examples__column examples__column_maxWidth230px">
+								<div class="examples__name">Однокомнатная квартира</div><a href="#" class="examples__checkAll">Смотреть все однокомнатные</a>
+							</div>
+							<div class="examples__column examples__column_maxWidth230px examples__column_flex">
+								<button class="examples__choice examples__choice_active examples__choice_render">Рендер</button>
+								<button class="examples__choice examples__choice_scheme">Схема</button>
+							</div>
+						</div>
+						<div class="examples__roomContainer">
+							<div class="examples__room"></div>
+							<div class="examples__roomLoop"></div>
+						</div>
+					</div>
+					<div class="examples__column">
+						<div class="examples__container">
+							<div class="examples__column examples__column_maxWidth230px">
+								<div class="examples__name">Двухкомнатная квартира</div><a href="#" class="examples__checkAll">Смотреть все двухкомнатные</a>
+							</div>
+							<div class="examples__column examples__column_maxWidth230px examples__column_flex">
+								<button class="examples__choice examples__choice_active examples__choice_render">Рендер</button>
+								<button class="examples__choice examples__choice_scheme">Схема</button>
+							</div>
+						</div>
+						<div class="examples__roomContainer">
+							<div class="examples__room"></div>
+							<div class="examples__roomLoop"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="wrapper slider">
+				<div id="infrastructure" class="slider__title">Инфраструктура района</div>
+				<div class="slider__rel owl-carousel owl-theme">
+					<div style="background:url(&quot;img/first_img.png&quot;) no-repeat center/cover" class="slider__item"></div>
+					<div style="background:url(&quot;img/second_img.png&quot;) no-repeat center/cover" class="slider__item"></div>
+					<div style="background:url(&quot;img/third_img.png&quot;) no-repeat center/cover" class="slider__item"></div>
+					<div style="background:tomato" class="slider__item"></div>
+					<div style="background:aqua" class="slider__item"></div>
+				</div>
+			</div>
+			<div id="map" class="map">
+				<script src="https://api-maps.yandex.ru/2.1/?apikey=4425a3db-ca4e-47ed-b1f0-14bb353218bd&amp;lang=ru_RU" type="text/javascript"></script>
+			</div>
+			<div class="wrapper trade">
+				<div class="trade__title">Офис продаж</div>
+				<div class="trade__container">
+					<div class="trade__img"></div>
+					<div class="trade__column">
+						<div class="trade__text">Офис продаж расположен на объекте по адресу ул. Набережная 62-ой Армии, 6</div><a href="https://yandex.ru/maps/38/volgograd/?ll=44.522149%2C48.700699&amp;mode=routes&amp;rtext=~48.701189%2C44.519327&amp;rtt=auto&amp;z=17.4" target="_blank" class="trade__ref">Как добраться</a>
+					</div>
+				</div>
+			</div>
+		</main>
+	</body>
+</html>

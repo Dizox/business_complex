@@ -1,0 +1,114 @@
+.examples__wrapper, .examples__column_flex{
+    display: flex;
+}
+
+.examples__title{
+    width: max-content;
+    margin: 0px auto 63px auto;
+    font-size: 24px;
+}
+
+.examples__container{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.examples__column{
+    width: 505px;
+}
+
+.examples__column_maxWidth230px{
+    max-width: 230px;
+}
+
+.examples__column_right125px{
+    margin-right: 125px;
+}
+
+.examples__name{
+    font-size: 18px;
+}
+
+.examples__checkAll{
+    display: inline-block;
+    color: #6C8CE0;
+    border-bottom: 1px solid #6C8CE0;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.examples__choice{
+    background-color: #fff;
+    color: black;
+    border-radius: 20px;
+    width: 105px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.examples__choice_active{
+    background-color: #6C8CE0;
+    color: #fff;
+}
+
+.examples__roomContainer{
+    width: 100%;
+    height: 379px;
+    position: relative;
+}
+
+.examples__room{
+    width: 100%;
+    height: 379px;
+    background: url("img/home_picture.png") no-repeat center/cover;
+    position: absolute;
+    opacity: 1;
+}
+
+.examples__room_scheme{
+    background-image: url("img/home_scheme.png") !important;
+}
+
+.examples__roomContainer:hover{
+    cursor: pointer;
+}
+
+.examples__roomLoop{
+    display: none;
+    width: 60px;
+    height: 60px;
+    border: 1px solid #6C8CE0;
+    border-radius: 45px;
+    background: url("img/loop.png") no-repeat center;
+    background-size: 30px;
+    background-color: #fff;
+    position: absolute;
+    top: 45%;
+    left: 47%;
+}
+
+.examples__choice_scheme.examples__choice_active{
+    color: black;
+}
+
+@media screen and (max-width: 1130px){
+    .examples__wrapper{
+        flex-direction: column;
+    }
+
+    .examples__column{
+        margin: 0px auto;
+        padding-top: 60px;
+    }
+
+    .examples__title{
+        margin-bottom: 0px;
+    }
+
+    .examples__column_maxWidth230px{
+        padding-top: 0px;
+    }
+}

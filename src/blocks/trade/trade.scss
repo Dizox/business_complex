@@ -1,0 +1,36 @@
+.trade{
+    margin-bottom: 134px;
+}
+
+.trade__title{
+    font-size: 36px;
+}
+
+.trade__container{
+    margin-top: 40px;
+    display: flex;
+}
+
+.trade__img{
+    width: 580px;
+    height: 435px;
+    background: url("img/office.png") no-repeat center/cover;
+}
+
+.trade__column{
+    max-width: 312px;
+    margin-left: 50px;
+}
+
+.trade__text{
+    font-size: 16px;
+}
+
+.trade__ref{
+    width: max-content;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #6C8CE0;
+    border-bottom: 1px solid #6C8CE0;
+    cursor: pointer;
+}

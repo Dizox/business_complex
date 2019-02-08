@@ -1,0 +1,64 @@
+.plan{
+    margin: 126px 0px 85px 0px;
+}
+
+.plan__title{
+    font-size: 36px;
+    width: max-content;
+}
+
+.plan__container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 34px;
+}
+
+.plan__text{
+    max-width: 668px;
+}
+
+.plan__button{
+    width: 260px;
+    height: 60px;
+    border: 1px solid #6C8CE0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+}
+
+.plan__button:hover{
+    background-color: #6C8CE0;
+    color: #fff;
+}
+
+@media screen and (max-width: 1050px){
+    .plan{
+        margin: 70px 0px 85px 0px;
+    }
+
+    .plan__container{
+        flex-direction: column;
+        width: max-content;
+    }
+
+    .plan__title, .plan__container{
+        text-align: center;
+        margin: 0px auto;
+    }
+
+    .plan__button{
+        margin: 0px auto;
+    }
+
+    .plan__text{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 760px){
+    .plan__container{
+        width: 100%;
+    }
+}
